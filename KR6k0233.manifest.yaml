@@ -1,0 +1,107 @@
+canonical_identifier: bkk:krp/KR6k0233/v1
+canonical_location: https://kanripo.org/bkk/KR6k0233/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 歸戒要集
+  identifiers:
+    alt_id:
+    - X60n1129
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X60/X60n1129.xml
+    old_id: X60n1129
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6k0233_000.yaml, hash: 'sha256:dcba57439ab1ce4d4390f816907366e4da785106f1e6ac9651f38347d409c51d'}
+  - {seq: 1, filename: KR6k0233_001.yaml, hash: 'sha256:82d5543ceac0ca2138b3c23fd77267b313bad7ec9ab882b1c8acae0a7adb80f5'}
+  - {seq: 2, filename: KR6k0233_002.yaml, hash: 'sha256:7f5c708fca1f831a0c29a4048d72c0574efc4e8230ee3afba9da177929e67b53'}
+  - {seq: 3, filename: KR6k0233_003.yaml, hash: 'sha256:47eaf79fd79f8916e275a4189c184fa77c796125087ddbb1b2b1360aef5f0939'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6k0233_000.markers.yaml, hash: 'sha256:12da66026bd3feb2c759f9da3a9427f8de1e7f80d66de15f75b1778458916876'}
+  - {seq: 1, role: markers, filename: assets/KR6k0233_001.markers.yaml, hash: 'sha256:49dee5380f450f64a9e140efd185cf1063d310c5e5f9d89245a2d085abde02ec'}
+  - {seq: 2, role: markers, filename: assets/KR6k0233_002.markers.yaml, hash: 'sha256:6fef3d343280334e4e477b9883025de0747681c39ce692239aeb688dfb1f6698'}
+  - {seq: 3, role: markers, filename: assets/KR6k0233_003.markers.yaml, hash: 'sha256:295bf69192d64370b6e688cfcc13be15df7245453f387d32740d2341e755aaaa'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6k0233_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: No. 1129-A 歸戒序
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6k0233_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 5704
+  label: 歸戒要集卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6k0233_X_001-mulu-1
+    span:
+    - body
+    - 13
+    - 13
+  label: 受三歸法
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6k0233_X_002-juan-start
+    span:
+    - body
+    - 0
+    - 11941
+  label: 歸戒要集卷中
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6k0233_X_002-mulu-1
+    span:
+    - body
+    - 12
+    - 12
+  label: 受五戒法
+  type: mulu
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6k0233_X_003-juan-start
+    span:
+    - body
+    - 0
+    - 8501
+  label: 歸戒要集卷下
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6k0233_X_003-mulu-1
+    span:
+    - body
+    - 12
+    - 12
+  label: 受八戒齋法
+  type: mulu
+  level: 1
+hash: sha256:0b5cb41b3d1f9d8e60a0ef99a4fac76088c9bcbf073bcd46573ef4efe378ad10
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
